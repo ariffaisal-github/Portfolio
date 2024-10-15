@@ -30,7 +30,7 @@ export default function ContentList({
   const urlPrefix = contentType === "Blog" ? "/blog" : "/project";
 
   useEffect(() => {
-    let ctx = gsap.context(() => {
+    const ctx = gsap.context(() => {
       itemsRef.current.forEach((item) => {
         gsap.fromTo(
           item,
