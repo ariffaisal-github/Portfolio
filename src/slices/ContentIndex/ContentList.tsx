@@ -125,7 +125,9 @@ export default function ContentList({
                 key={index}
                 className="list-item"
                 onMouseEnter={() => onMouseEnter(index)}
-                ref={(el) => (itemsRef.current[index] = el)}
+                ref={(el) => {
+                  itemsRef.current[index] = el;
+                }}
               >
                 <Link
                   href={urlPrefix + "/" + item.uid}

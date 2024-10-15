@@ -24,7 +24,7 @@ export default function Button({
 
   return isMailTo ? (
     <a
-      href={linkUrl}
+      href={linkUrl || undefined}
       target="_blank" // Open mailto in a new tab
       rel="noopener noreferrer" // Security enhancement for external links
       className={clsx(
