@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import clsx from "clsx";
-
+import { Analytics } from "@vercel/analytics/react"
 // Load the Urbanist font with selected weights and subsets
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -25,6 +25,7 @@ export default function RootLayout({
     <html lang="en" className="bg-slate-900 text-slate-100">
       {/* Use urbanist.className to apply the font */}
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
+        <Analytics />
         <Header />
         {children}
         <div className="background-gradient absolute inset-0 -z-50 max-h-screen" />
