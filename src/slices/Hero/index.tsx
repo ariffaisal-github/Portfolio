@@ -78,7 +78,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-variation={slice.variation}
       ref={component}
     >
-      <div className="grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center">
+      <div className="grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center -my-[80px]">
         <Shapes />
         <div className="col-start-1 md:row-start-1">
           <h1
@@ -94,7 +94,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
               {renderLetters(slice.primary.last_name, "last")}
             </span>
           </h1>
-          <span className="job-title block bg-gradient-to-tr from-yellow-500 via-yellow-100 to-yellow-500 bg-clip-text text-2xl font-bold uppercase tracking-[.2em] text-transparent opacity-0 md-text-4xl">
+          <span className="job-title block bg-gradient-to-tr from-yellow-500 via-yellow-100 to-yellow-500 bg-clip-text text-3xl font-bold uppercase tracking-[.2em] text-transparent opacity-0 md-text-4xl">
             {slice.primary.tag_line}
           </span>
         </div>

@@ -49,6 +49,13 @@
           "allowText": true
         }
       },
+      "cta_label": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Label",
+          "placeholder": ""
+        }
+      },
       "twitter_link": {
         "type": "Link",
         "config": {

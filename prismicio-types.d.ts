@@ -392,6 +392,17 @@ interface SettingsDocumentData {
   cta_link: prismic.LinkField;
 
   /**
+   * CTA Label field in *Settings*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: settings.cta_label
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  cta_label: prismic.KeyTextField;
+
+  /**
    * Twitter Link field in *Settings*
    *
    * - **Field Type**: Link

@@ -23,12 +23,12 @@ export default function Avatar({ image, className }: AvatarProps) {
       );
 
       window.onmousemove = (e) => {
-        if (!component) return;
+        if (!component.current) return;
         const componentRect = (
-          component.current as unknown as HTMLElement
+          component.current as HTMLElement
         ).getBoundingClientRect();
         const componentCenterX =
-          (componentRect.left + componentRect.width / 2) / 1.1;
+          (componentRect.left + componentRect.width / 2) / 1.11;
 
         let componentPercent = {
           x: (e.clientX - componentCenterX) / componentRect.width / 2,
@@ -42,7 +42,7 @@ export default function Avatar({ image, className }: AvatarProps) {
           .to(
             ".avatar",
             {
-              rotation: gsap.utils.clamp(0, 5.5, 5.5 * componentPercent.x),
+              rotation: gsap.utils.clamp(-2, 5.5, 5.5 * componentPercent.x),
               duration: 0.5,
             },
             0
