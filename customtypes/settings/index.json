@@ -56,20 +56,30 @@
           "placeholder": ""
         }
       },
-      "twitter_link": {
+      "github_link": {
         "type": "Link",
         "config": {
-          "label": "Twitter Link",
+          "label": "Github Link",
           "placeholder": "",
           "allowTargetBlank": true,
           "select": null,
           "allowText": true
         }
       },
-      "github_link": {
+      "facebook": {
         "type": "Link",
         "config": {
-          "label": "Github Link",
+          "label": "Facebook",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "select": null,
+          "allowText": true
+        }
+      },
+      "twitter_link": {
+        "type": "Link",
+        "config": {
+          "label": "Twitter Link",
           "placeholder": "",
           "allowTargetBlank": true,
           "select": null,

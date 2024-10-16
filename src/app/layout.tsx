@@ -23,6 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-slate-900 text-slate-100">
+      <title>Arif Faisal</title>
       {/* Use urbanist.className to apply the font */}
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
         <Analytics />

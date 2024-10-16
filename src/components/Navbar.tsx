@@ -76,7 +76,7 @@ export default function NavBar({
                   className="hidden text-4xl font-thin leading-[0] text-slate-400 md:inline"
                   aria-hidden="true"
                 >
-                  /
+                  |
                 </span>
               )}
             </React.Fragment>
@@ -144,7 +144,7 @@ function DesktopMenu({
               className="hidden text-4xl font-thin leading-[0] text-slate-400 md:inline"
               aria-hidden="true"
             >
-              /
+              |
             </span>
           )}
         </React.Fragment>

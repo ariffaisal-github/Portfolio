@@ -38,31 +38,31 @@ function Geometries() {
       position: [0, 0, 0],
       r: 0.3,
       geometry: new THREE.IcosahedronGeometry(2.5), // Gem
-      label: "JavaScript",
+      // label: "JavaScript",
     },
     {
       position: [1, -0.75, 4],
       r: 0.4,
       geometry: new THREE.CapsuleGeometry(0.5, 1.6, 2, 16), // Capsule
-      label: "React",
+      // label: "React",
     },
     {
       position: [-1.4, 2, -4],
       r: 0.7,
       geometry: new THREE.DodecahedronGeometry(1.5), // Football
-      label: "MERN",
+      // label: "MERN",
     },
     {
       position: [-0.8, -0.75, 5],
       r: 0.5,
       geometry: new THREE.TorusGeometry(0.6, 0.25, 16, 32), // Donut
-      label: "NextJS",
+      // label: "NextJS",
     },
     {
       position: [1.6, 1.6, -4],
       r: 0.8,
       geometry: new THREE.OctahedronGeometry(1.5), // Diamond
-      label: "TypeScript",
+      // label: "TypeScript",
     },
   ];
 

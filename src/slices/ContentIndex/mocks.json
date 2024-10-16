@@ -30,7 +30,6 @@
 				"type": "Text"
 			},
 			"fallback_item_image": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
@@ -48,6 +47,9 @@
 					},
 					"background": "transparent"
 				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			}
 		},
